@@ -10,7 +10,7 @@ All raw and processed data are available via Zenodo:
 
 ## Repository Structure
 
-- **StatisticalTests.R** – Fisher's exact test for cell type/condition testing and PTPRC differential expression.  (Figure 1)
+- **TranscriptStatistics.R** – Fisher's exact test for cell type/condition testing and PTPRC differential expression. Aggregation and plotting of transcript statistics. (Figure 1)
 - **SeuratWorkflow.ipynb** – Notebook used for preprocessing, QC and annotating long-read data.  (Figure 1)
 - **ComparisonShortLong.R** – Barcode matching and label transfer between long- and short-read Seurat datasets. (Figure 2)
 - **DifferentialExpression.R** – DEG and DTU testing workflow using *DESeq2* and *DEXSeq* on Seurat-derived counts. (Figure 3)
