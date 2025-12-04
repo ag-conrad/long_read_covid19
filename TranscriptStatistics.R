@@ -1,11 +1,12 @@
 # =========================================================================================================
-# Script:     Cell Distribution Test and PTPRC Transcript Analysis 
+# Script:     Cell Distribution Test, PTPRC Transcript Analysis and Global Transcript Statistics
 # Author:     Kristin Köhler
 # Date:       2025-10-14
 # Description:
 #   This script evaluates cell-type–specific PTPRC transcript expression within immune cells
 #   using long-read single-cell RNA-seq data. It performs Fisher’s exact test for global
 #   cell type–condition associations and transcript-level marker testing in immune subsets.
+#   Additionally, it computes and plots other more global transcript statistics.
 # Contact:
 #   kristin.koehler@bih-charite.de
 # =========================================================================================================
